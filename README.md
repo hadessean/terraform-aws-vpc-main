@@ -36,7 +36,7 @@ Terraform module to create a production-ready AWS VPC with public, private, and 
 
 ```hcl
 module "vpc" {
-  source = "github.com/sivakmrreddy/terraform-aws-vpc"
+  source = "github.com/hadessean/terraform-aws-vpc"
 
   project     = "roboshop"
   environment = "dev"
@@ -54,7 +54,7 @@ module "vpc" {
 
 ```hcl
 module "vpc" {
-  source = "github.com/sivakmrreddy/terraform-aws-vpc"
+  source = "github.com/hadessean/terraform-aws-vpc"
 
   project     = "roboshop"
   environment = "dev"
